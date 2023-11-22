@@ -16,11 +16,17 @@ footer{
 }
 
 button{
+    padding: 5px;
     border: none;
     font-size: 1rem;
     text-transform: capitalize;
     color: white;
     background-color: #222222;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4A4A4A
 }
 
 button i{
@@ -34,24 +40,32 @@ button span {
 
 }
 
+#end{
+    padding-inline: 30px;
+    height: 100%;
+    color: red;
+    background-color: #4a4a4a;
+}
+
+#end:hover{
+    background-color: rgba(134, 132, 132, 1);
+}
+
 
 
 footer div:first-child{
     flex-basis: 25%;
-    border: 1px solid yellow;
     padding-left: 15px;
 }
 
 footer div:nth-child(2){
     flex-basis: 50%;
-    border: 2px solid blue;
     justify-content: center;
     gap: 15px;
 }
 
 footer div:last-child{
     flex-basis: 25%;
-    border: 1px solid red;
     justify-content: flex-end;
 }
 
