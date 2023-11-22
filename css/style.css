@@ -16,17 +16,21 @@ footer{
 }
 
 button{
-    
     border: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: white;
     background-color: #222222;
 }
 
+button i{
+    font-size: 1.7rem;
+}
+
+
 button span {
     display: block;
-
+    margin-top: 5px;
 
 }
 
@@ -35,11 +39,14 @@ button span {
 footer div:first-child{
     flex-basis: 25%;
     border: 1px solid yellow;
+    padding-left: 15px;
 }
 
 footer div:nth-child(2){
     flex-basis: 50%;
     border: 2px solid blue;
+    justify-content: center;
+    gap: 15px;
 }
 
 footer div:last-child{
@@ -52,5 +59,15 @@ footer div:last-child{
     height: 100%;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
+
+.fa-angle-up{
+    font-size: 1em;
+}
+
+.container{
+    height: 90vh;
+    background-color: black;
+}
