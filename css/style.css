@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    height: 10vh;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    
+    border: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #222222;
+}
+
+button span {
+    display: block;
+
+
+}
+
+
+
+footer div:first-child{
+    flex-basis: 25%;
+    border: 1px solid yellow;
+}
+
+footer div:nth-child(2){
+    flex-basis: 50%;
+    border: 2px solid blue;
+}
+
+footer div:last-child{
+    flex-basis: 25%;
+    border: 1px solid red;
+    justify-content: flex-end;
+}
+
+.call-act{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
