@@ -18,7 +18,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    position: relative;
 }
+
 
 .user{
     position: relative;
@@ -41,27 +43,22 @@ body{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+.w-control{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.w-control button{
+    cursor: pointer;
+    margin: 5px;
+    padding:3px 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4A4A4A;
+    color: white;
+    font-size: 1.1rem;
+}
 
 
 footer{
@@ -75,7 +72,7 @@ footer{
     justify-content: space-between;
 }
 
-button{
+ footer button{
     border: none;
     padding: 5px;
     font-size: 1rem;
@@ -90,12 +87,12 @@ button:hover{
     background-color: #4A4A4A
 }
 
-button i{
+footer button i{
     font-size: 1.7rem;
 }
 
 
-button span {
+footer button span {
     display: block;
     margin-top: 5px;
 
